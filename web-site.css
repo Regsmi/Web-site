@@ -1,0 +1,59 @@
+header {
+  background-image: url("newcastle1.jpg");
+  text-align: center;
+  font-style: oblique;
+  padding-top: 60px;
+  color: black;
+  height: 400px;
+  background-size:cover;
+  margin: 20px 12px 0 12px;
+  position: relative;
+  border-radius: 12px;
+}
+
+body{
+
+   background: -webkit-linear-gradient(bottom,rgba(221,160,221,0), rgba(139,0,139,0));
+   background-color: purple;
+}
+h1{
+  font-size: 50px;
+  margin-left: 10px;
+  font-family: 'Londrina Shadow';
+}
+h2{color:white;
+  text-align: center;
+}
+
+button{
+  margin-left: 70px;
+  color:white;
+  background-color: blue;
+}
+#love{
+  background-image: url("Tiger1.jpg");
+  background-size: cover;
+  max-width: 500px;
+  position:relative;
+  border-radius: 12px;
+  color: white;
+
+}
+
+@media (max-width: 500px){
+     #love{background-color: red;
+
+     }
+   }
+
+.fun{
+  height: 400px;
+  background-size: contain;
+  position: relative;
+  text-align: center;
+}
+
+h3{
+  color: white;
+  text-align:center;
+}
