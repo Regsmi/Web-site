@@ -25,33 +25,72 @@ h2{color:white;
   text-align: center;
 }
 
-button{
-  margin-left: 70px;
+.dance {color:red;}
+
+.time {
+  margin-left: 40px;
   color:white;
   background-color: blue;
 }
 #love{
   background-image: url("Tiger1.jpg");
-  background-size: cover;
+  background-size:cover;
   max-width: 500px;
   position:relative;
   border-radius: 12px;
   color: white;
+  height: 400px;
+  font: 50px;
 
 }
+ .dropdown {
+   position:relative;
+ }
+@media (max-width: 600px){
 
-@media (max-width: 500px){
-     #love{background-color: red;
+    h1{font-size:27px;
+      margin: 50px 20px 200px 20px;
+    }
+    header {background-position:center;
+    }
+    h2 {font-size: 23px}
 
-     }
-   }
+    }
+    h3{font-size:20px}
+    p{font-size: 15px;
+    }
+  }
 
-.fun{
+
+.one{
   height: 400px;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   text-align: center;
+  background-image: url("Tiger1.jpg");
 }
+.two{
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
+}
+.three{
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+}
+.four {
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+}
+
 
 h3{
   color: white;
