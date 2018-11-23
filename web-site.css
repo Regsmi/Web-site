@@ -28,19 +28,40 @@ h2{color:white;
 .dance {color:red;}
 
 .time {
-  margin-left: 40px;
+  margin-left: 270px;
   color:white;
   background-color: blue;
 }
+.time1{
+  margin-left: 270px;
+  color:white;
+  background-color: blue;
+}
+
 #love{
+  background-image: url("Tiger1.jpg");
+  background-size:cover;
+  max-width: 500px;
+  position:relative;
+  margin-left: 80px;
+  border-radius: 12px;
+  color: white;
+  height: 200px;
+  font: 50px;
+  text-align: center;
+
+}
+#fun {
   background-image: url("Tiger1.jpg");
   background-size:cover;
   max-width: 500px;
   position:relative;
   border-radius: 12px;
   color: white;
-  height: 400px;
+  height: 200px;
   font: 50px;
+  text-align: center;
+  margin-left: 80px;
 
 }
  .dropdown {
@@ -62,34 +83,50 @@ h2{color:white;
   }
 
 
-.one{
-  height: 400px;
+/* .one{
+  height: 200px;
   background-size: cover;
   position: relative;
   text-align: center;
   background-image: url("Tiger1.jpg");
-}
-.two{
-  height: 400px;
+  max-width: 500px;
+  color: white;
+  font: 50px;
+  margin-left: 80px;
+} */
+/* .two{
+  height: 200px;
   background-size: cover;
   position: relative;
   text-align: center;
   background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
+  max-width: 500px;
+  border-radius: 12px;
+  color: white;
+  font: 50px;
 }
 .three{
-  height: 400px;
+  height: 200px;
   background-size: cover;
   position: relative;
   text-align: center;
   background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+  max-width: 500px;
+  border-radius: 12px;
+  color: white;
+  font: 50px;
 }
 .four {
-  height: 400px;
+  height: 200px;
   background-size: cover;
   position: relative;
   text-align: center;
   background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
-}
+  max-width: 500px;
+  border-radius: 12px;
+  color: white;
+  font: 50px;
+} */
 
 
 h3{
