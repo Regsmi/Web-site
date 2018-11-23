@@ -64,6 +64,47 @@ h2{color:white;
   margin-left: 80px;
 
 }
+
+#love1{
+  background-image: url("Tiger1.jpg");
+  background-size:cover;
+  max-width: 500px;
+  position:relative;
+  border-radius: 12px;
+  color: white;
+  height: 200px;
+  font: 50px;
+  text-align: center;
+  margin-left: 80px;
+}
+#love2{
+  background-image: url("Tiger1.jpg");
+  background-size:cover;
+  max-width: 500px;
+  position:relative;
+  border-radius: 12px;
+  color: white;
+  height: 200px;
+  font: 50px;
+  text-align: center;
+  margin-left: 80px;
+}
+#love3{
+  background-image: url("Tiger1.jpg");
+  background-size:cover;
+  max-width: 500px;
+  position:relative;
+  border-radius: 12px;
+  color: white;
+  height: 200px;
+  font: 50px;
+  text-align: center;
+  margin-left: 80px;
+}
+
+#yes{margin-top: -50px;
+
+}
  .dropdown {
    position:relative;
  }
@@ -80,6 +121,10 @@ h2{color:white;
     h3{font-size:20px}
     p{font-size: 15px;
     }
+  }
+  .about{
+    position:left;
+    margin-top: 5px;
   }
 
 
