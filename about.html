@@ -18,9 +18,17 @@
 
   <h2> <big> About </big> <br /> <small> The lasses </small> </h2>
 
+  <button class='home'> Back to Home </button>
+  <script>  $('.home').click(function (event){
+      var url = "https://www.youtube.com/";
+      $(location).attr('href',url);
+      // alert (url);
+    });
+      </script>
+
 <div class=col-xs-6>
       <h2> Regina <br /> <small> about </small> </h2>
-      <img src='cat1.jpg'>
+      <img src='cat1.jpg'class="img-circle">
       <div class="row">
         <div class=col-xs-4>
         <blockquote>
@@ -32,7 +40,7 @@
     </div>
 <div class="col-xs-6">
       <h2> Sumire <br /> <small> about </small> </h2>
-      <img src='cat2.jpg'>
+      <img src='cat2.jpg'class="img-circle">
       <div class="col-xs-4">
         <blockquote>
         <p>These dumplings are the best bla bla bla bla blaaaaaaaa </p>
