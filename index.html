@@ -20,10 +20,10 @@
     <div class= "col-xs-6">
       <div id="yes">
       <form role='form'>
-      <label for="email">Find out more</label>
+      <!-- <label for="email">Find out more</label> -->
     </form class="navbar-form navbar left" role="search">
     <form=class"form-group">
-    <input type="text" class="form-control" placeholder="Search">
+    <input type="text" class="form-control" placeholder="Find out more">
 
 
 
@@ -38,33 +38,111 @@
   </div>
 
    </header>
-
-   <nav class="navbar navbar-default">
+<div id="smile">
+   <nav class="navbar navbar-fixed-top">
      <div class="container-fluid">
        <ul class="nav navbar-nav">
          <!-- <li class="active"><a href="#love">Nightlife</a></li> -->
 
-         <li class="gh-main-nav-item">
-<a class="gh-main-nav-link" href="/Web-site.html" title="Classes" data-ga-category="Navigation Menu" data-ga-action="Classes" data-ga-label="/Web-site.html">
-Nightlife activities </a>
-<ul id="nav-classes" class="text-left dropdown">
-<li>
-<a href="/Web-site.html" data-ga-category="Navigation Menu" data-ga-action="Classes_About our Classes" data-ga-label="/en-US/pages/class">TigerTiger</a>
-</li>
-</ul>
-</li>
+ <li class="gh-main-nav-item">
+        <li> <button class='bad'> TigerTiger </button> </li>
+       <script>
+
+        $(document).ready(function (){
+                   $(".bad").click(function (){
+                       $('html, body').animate({
+                           scrollTop: $("#love").offset().top
+                       }, 500);
+                   });
+               });
+        </script> </li>
 
 
-         <!-- <div class="dropdown-content">
-           <a href="#love">TigerTiger</a> -->
-           <!-- <li role="separator" class="divider"></li> -->
+        <li> <button class='bad1'> Flares </button> </li>
+       <script>
 
-         <!-- </div> -->
+        $(document).ready(function (){
+                   $(".bad1").click(function (){
+                       $('html, body').animate({
+                           scrollTop: $("#love1").offset().top
+                       }, 800);
+                   });
+               });
+        </script> </li>
 
-         <li><a href="#">Daytime activities</a></li>
-         <li>
+        <li> <button class='bad2'> The Empress </button> </li>
+        <script>
 
-         <button class='about'> About </button>
+        $(document).ready(function (){
+                   $(".bad2").click(function (){
+                       $('html, body').animate({
+                           scrollTop: $("#love2").offset().top
+                       }, 1000);
+                   });
+               });
+        </script> </li>
+
+        <li> <button class='bad3'> Bierkeller </button> </li>
+       <script>
+
+        $(document).ready(function (){
+                   $(".bad3").click(function (){
+                       $('html, body').animate({
+                           scrollTop: $("#love3").offset().top
+                       }, 2000);
+                   });
+               });
+        </script> </li>
+
+        <li> <button class='good'> QB </button> </li>
+       <script>
+
+        $(document).ready(function (){
+                   $(".good").click(function (){
+                       $('html, body').animate({
+                           scrollTop: $("#fun").offset().top
+                       }, 500);
+                   });
+               });
+        </script> </li>
+
+        <li> <button class='good1'> Place2 </button> </li>
+       <script>
+
+        $(document).ready(function (){
+                   $(".good1").click(function (){
+                       $('html, body').animate({
+                           scrollTop: $("#fun1").offset().top
+                       }, 800);
+                   });
+               });
+        </script> </li>
+
+        <li> <button class='good2'> Place3 </button> </li>
+        <script>
+
+        $(document).ready(function (){
+                   $(".good2").click(function (){
+                       $('html, body').animate({
+                           scrollTop: $("#fun2").offset().top
+                       }, 1000);
+                   });
+               });
+        </script> </li>
+
+        <li> <button class='good3'> Place3 </button> </li>
+       <script>
+
+        $(document).ready(function (){
+                   $(".good3").click(function (){
+                       $('html, body').animate({
+                           scrollTop: $("#fun3").offset().top
+                       }, 2000);
+                   });
+               });
+        </script> </li>
+
+        <li> <button class='about'> About </button> </li>
          <script>  $('.about').click(function (event){
              var url = "https://regsmi.github.io/about/";
              $(location).attr('href',url);
@@ -72,27 +150,37 @@ Nightlife activities </a>
            });
 
              </script>
-             </li>
+
+             <li> <button class='good4'> Back to top </button> </li>
+             <script>
+
+             $(document).ready(function (){
+                        $(".good4").click(function (){
+                            $('html, body').animate({
+                                scrollTop: $("#yes").offset().top
+                            }, -2000);
+                        });
+                    });
+             </script> </li>
 
        </ul>
-     </div>
+
    </nav>
+</div>
 
-  <div>
+
+    <div id="left"
   <div class="col-xs-6">
-      <h2>Nightlife activities</h2>
 
-
+      <h3>Nightlife activities</h3>
 
 
           <div class='one'>
       <div id="love">
 
-          <h3> TigerTiger   </h3>
-            <blockquote>
-            <p>Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company.</p>
-            <small>Regina, 23 years, MSc Operations Management</small>
-          </blockquote>
+          <p><b>TigerTiger: </b>"Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company."
+             </p>
+
 
         </div>
 
@@ -109,11 +197,11 @@ Nightlife activities </a>
 
         <div class='one'>
           <div id="love1">
-          <h3> Flares </h3>
-          <blockquote>
-          <p>Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company.</p>
-          <small>Regina, 23 years, MSc Operations Management</small>
-        </blockquote>
+
+
+          <p><b>Flares: </b>"Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company."</p>
+
+
 
       </div>
 
@@ -130,17 +218,17 @@ Nightlife activities </a>
 
         <div class='one'>
           <div id="love2">
-          <h3> Empress </h3>
-          <blockquote>
-          <p>Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company.</p>
-          <small>Regina, 23 years, MSc Operations Management</small>
-        </blockquote>
+
+
+          <p><b> The Empress:</b> "Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company."</p>
+
+
 
       </div>
 
 
-      <button class='time3'> Visit web-site </button>
-      <script>  $('.time3').click(function (event){
+      <button class='time4'> Visit web-site </button>
+      <script>  $('.time4').click(function (event){
           var url = "http://www.theempressbar.com/";
           $(location).attr('href',url);
           // alert (url);
@@ -150,15 +238,15 @@ Nightlife activities </a>
 
 
 
-        <!-- <div class='one'>
+        <div class='one'>
           <div id="love3">
-          <h3> Bierkeller </h3>
 
 
-        <blockquote>
-        <p>Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company.</p>
-        <small>Regina, 23 years, MSc Operations Management</small>
-      </blockquote>
+
+
+        <p> <b> Bierkeller: </b> "Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company."
+       </p>
+
 
     </div>
 
@@ -169,12 +257,13 @@ Nightlife activities </a>
         $(location).attr('href',url);
         // alert (url);
       });
-        </script> -->
+        </script>
 
+</div>
 </div>
 
 
-
+<div id="right">
     <div class="col-xs-6">
       <h2> Daytime activities </h2>
 
@@ -222,5 +311,6 @@ Nightlife activities </a>
     </div>
 
     </div>
+  </div>
 
     </body>
