@@ -106,7 +106,7 @@
                });
         </script> </li>
 
-        <li> <button class='good1'> Place2 </button> </li>
+        <li> <button class='good1'> Cake stories </button> </li>
        <script>
 
         $(document).ready(function (){
@@ -118,7 +118,7 @@
                });
         </script> </li>
 
-        <li> <button class='good2'> Place3 </button> </li>
+        <li> <button class='good2'> Grainger market </button> </li>
         <script>
 
         $(document).ready(function (){
@@ -130,7 +130,7 @@
                });
         </script> </li>
 
-        <li> <button class='good3'> Place3 </button> </li>
+        <li> <button class='good3'> Tynemouth </button> </li>
        <script>
 
         $(document).ready(function (){
@@ -172,7 +172,7 @@
     <div id="left"
   <div class="col-xs-6">
 
-      <h3>Nightlife activities</h3>
+      <div id="night"><h2>Nightlife activities</h2></div>
 
 
           <div class='one'>
@@ -199,7 +199,7 @@
           <div id="love1">
 
 
-          <p><b>Flares: </b>"Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company."</p>
+          <p><b>Flares: </b>"It is a great place to dance and sing along to all of the throwbacks. Some nights present music from 60's to 90's. Great atmospehere, affordable drinks and amazing DJ."</p>
 
 
 
@@ -220,7 +220,7 @@
           <div id="love2">
 
 
-          <p><b> The Empress:</b> "Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company."</p>
+          <p><b> The Empress:</b> "Free entry every night of the week. Open until 3am, which is longer than any other club in town. Pop and RnB music with great drink deals."</p>
 
 
 
@@ -244,7 +244,7 @@
 
 
 
-        <p> <b> Bierkeller: </b> "Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company."
+        <p> <b> Bierkeller: </b> "Oktoberfest all year round. German inspired pub in the central location of the city. If dancing on the benches and drinking 2 pint beers at once is your thing, come and join the festive mood any time of the year."
        </p>
 
 
@@ -265,15 +265,15 @@
 
 <div id="right">
     <div class="col-xs-6">
-      <h2> Daytime activities </h2>
+      <div id="day"><h2> Daytime activities </h2></div>
 
     <div class='one'>
 <div id="fun">
-    <h3> QB </h3>
-      <blockquote>
-      <p>Great place.Central location. Famous with it's student nights every Wednesday. Has 3 different dancefloors with 3 different styles of music. A must to attend place for people who enjoys dressing up and just having fun in a good company.</p>
-      <small>Regina, 23 years, MSc Operations Management</small>
-    </blockquote>
+
+
+      <p><b>  Quilliam Brothers (QB): </b> "Sick of drinking boring, dull and often over-brewed tea in one of the unexciting chains? Give the experts in tea a try. And cake, of course. And their English breakfast, why not?"</p>
+
+
 
   </div>
 
@@ -291,26 +291,49 @@
 
   <div class='one'>
     <div id="fun1">
-    <h3> Place 2 </h3>
+
+    <p><b> Cake Stories: </b> "Located right by West Jesmond metro, Cake Stories is a must visit for those with a sweet tooth. You can find the perfect cake for every taste: from zesty lemon drizzle to the naughtiest chocolate-oreo cookie monster." </p>
   </div>
+  <button class='time8'> Visit web-site </button>
+  <script>  $('.time8').click(function (event){
+      var url = "https://www.cakestoriesjesmond.com/";
+      $(location).attr('href',url);
+      // alert (url);
+    });
+      </script>
 </div>
+
 
   <div class='one'>
     <div id="fun2">
-    <h3> Place 3 </h3>
+    <p><b> Grainger Market: </b> "180 year-old market right in the heart of the city. Not only can you do your groceries shopping at local businesses and traders, but have some food on site (dumplings featured)."</p>
+
+</div>
+    <button class='time6'> Visit web-site </button>
+    <script>  $('.time6').click(function (event){
+        var url = "https://www.graingermarket.org/";
+        $(location).attr('href',url);
+        // alert (url);
+      });
+        </script>
   </div>
-  </div>
+
 
 
   <div class='one'>
     <div id="fun3">
+      <p><b> Tynemouth: </b>"With easy access by metro -only 25 minutes away- Tynemouth is a very good option if you are looking for a fun day out. Don't forget to be hungry to enjoy fish and chips to the fullest!"</p>
 
-    <h3> Place 4 </h3>
+      </div>
+      <button class='time7'> Visit web-site </button>
+      <script>  $('.time7').click(function (event){
+          var url = "https://www.visitnorthtyneside.com/destinations/destination/1/";
+          $(location).attr('href',url);
+          // alert (url);
+        });
+          </script>
 
-  </div>
     </div>
-
-    </div>
   </div>
-
+</div>
     </body>
